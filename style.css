@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.pinimg.com/564x/2f/de/d7/2fded76a5841d87d5c24c2eb3a67940c.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#container{
+ width: 300px;
+ margin: 10px auto;
+ background-color: #ffffffaa;
+padding: 5px;
+}
+h1{
+    text-align: center;
+}
+input{
+    display:block;
+    margin: 10px auto;
+}
+input[type="number"]{
+    width: 100%;
+}
+input[type="button"]{
+    width: 100%;
+    padding: 2px;
+    background-color: #ffffffaa;
+    border-radius: 3px;
+    font-weight: bold;
+    color:darkgoldenrod;
+}
