@@ -19,17 +19,15 @@ body{
 }
 
 main{
-    position: relative;
 }
 #container{
-    position: absolute;
-    top: 15vw;
+    display: flex;
     
     margin: 10px auto;
     background-color:var(--cor1) ;
     padding: 5px;
     border-radius:5px;
-    float: left;
+ 
     padding: 20px
     
 }
