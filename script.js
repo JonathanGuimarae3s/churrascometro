@@ -1,4 +1,4 @@
-
+alert('Pagina ainda em desenvolvimento. Em breve haverá uma atualização!')
 let inputAdulto= document.getElementById("adulto")
 let inputCrianca= document.getElementById("crianca")
 let inputDuracao= document.getElementById("duracao")

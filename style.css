@@ -1,67 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 *{
     padding: 0;
     margin:0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:var(--font);
+
+
 }
 :root{
-    --cor1:#4A3B21;
-    --cor2:#543E25;
-    --cor3:#3D2A1E;
-    --cor4:#543025;
-    --cor5: #4A2421;
-    
+    --color1: #FFFFFF;
+    --color2: #FBF37C;
+    --color3: #7F7F7F;
+    --color4: #58555A;
+    --color5: #000000; 
+    --font:'Lato',san-seri,Arial, Helvetica, sans-serif;
 }
 body{
-    background-color:var(--cor1) ;
+    background-color:var(--color2) ;
     
     
 }
 
 main{
+
+
+}
+header{
+    width: 100%;
+    background-color: #58555A;
+   box-shadow: 1px 2px 8px 1px black;
+   text-align: center;
+   padding: 10px;
+   color:  var(--color5);
+}
+header > p{
+    font-weight: bold;
 }
 #container{
-    display: flex;
-    
-    margin: 10px auto;
-    background-color:var(--cor1) ;
-    padding: 5px;
-    border-radius:5px;
  
-    padding: 20px
+    max-width: 500px;
+  
+    margin: 25px auto;
+    background-color:var(--color3) ;
+  
+    border-radius:5px;
+    box-shadow: 1px 2px 8px 1px black;
+    padding: 20px;
+    
     
 }
 h1{
     background-color:var(--cor3);
     text-align: center;
-    padding: 10px;
+   
     
 }
 
 input{
     border-radius:3px;
     border:none;
-   
+    width:30vw;
     display:block;
     margin: 10px auto;
+     
+    padding: 10px;
     
 }
-input[type="number"]{
-    width:30vw;
-    padding: 10px;
-}
+
 input[type="button"]{
     
-    
-    background-color: #ffffffaa;
+
+    background-color: var(--color1);
     border-radius: 3px;
     font-weight: bold;
-    color:darkgoldenrod;
+    color:var(--color5);
+ 
 }
 input[type="button"]:hover{
     cursor: pointer;
         
 }
-h3{
-    text-align: center;
-}
+
