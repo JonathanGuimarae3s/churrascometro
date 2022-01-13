@@ -82,3 +82,17 @@ input[type="button"]:hover{
         
 }
 
+footer> p{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: var(--color5);
+}
+a:hover{
+    text-decoration: none;
+    color: var(--color4);
+    
+}
+
