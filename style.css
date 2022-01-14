@@ -22,13 +22,10 @@ body{
     
 }
 
-main{
 
-
-}
 header{
     width: 100%;
-    background-color: #58555A;
+    background-color: var(--color3);
    box-shadow: 1px 2px 8px 1px black;
    text-align: center;
    padding: 10px;
@@ -43,7 +40,8 @@ header > p{
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
-    margin:20px 0px;
+    margin:110px 0px;
+
 }
 #img{
     display: inline-block;
@@ -96,8 +94,24 @@ input[type="button"]:hover{
         
 }
 
+img{
+    max-width: 500px;
+    margin: 10px 0px;
+}
+
+footer{
+    background-color: #7F7F7F;
+}
+#footer_container{
+    background-color: #7F7F7F;
+    height:36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 div > p{
     text-align: center;
+   
 
 }
 a{
