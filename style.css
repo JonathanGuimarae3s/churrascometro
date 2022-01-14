@@ -38,10 +38,24 @@ header > p{
     font-weight: bold;
 }
 #container{
- 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:20px 0px;
+}
+#img{
+    display: inline-block;
+   
+   
+}
+#form{
+    display: inline-block;
+    
     max-width: 500px;
   
-    margin: 25px auto;
+   
     background-color:var(--color3) ;
   
     border-radius:5px;
