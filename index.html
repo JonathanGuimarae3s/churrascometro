@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Churrascômetro</title>
-    <link rel="stylesheet" href="style.css">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Churrascômetro</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>Churrascômetro</h1>
+				<p>O site que sempre te ajuda no seu churrasco.</p>
+			</header>
+			<div id="container">
+				<div id="form">
+					<h2>Seja bem-vindo(a) ao Churrascômetro!</h2>
+					<p>Insira os valores que nós calcularemos o seu churrasco.</p>
 
-</head>
-<body >
-    <main>
-        <header>
-            <h1>Churrascômetro</h1>
-            <p>O site que sempre te ajuda no seu churrasco.</p>
-        </header>
-        <div id="container">
-            
-            <div id="form">
-                <h2>Seja bem-vindo(a) ao Churrascômetro!</h2>
-                <p>Insira os valores que nós calcularemos o seu churrasco.</p>
-            
-                <input type="number" name="adulto" id="adulto" placeholder="Adulto">
-                <input type="number" name="crianca" id="crianca" placeholder="Criança">
-                <input type="number" name="duracao" id="duracao" placeholder="Duração">
-                <input type="button" value="Calcular" onclick="calcular()">
-                <div id="resultados">
-                </div>
-            </div>
-            
-                <img src="churras.png" alt="churras"  >
-            
-            
-        </div>
-    </main>
-    
-    <hr>
-    <footer>
-        <div id="footer_container">
-            <p>Desenvolvido por <a href="https://github.com/JonathanGuimarae3s/" target="_blank">Jonathan Guimarães</a></p>
-        </div>
-    </footer>
-    <script src="script.js"></script>
-</body>
+					<input type="number" name="adulto" id="adulto" placeholder="Adulto" />
+					<input
+						type="number"
+						name="crianca"
+						id="crianca"
+						placeholder="Criança"
+					/>
+					<input
+						type="number"
+						name="duracao"
+						id="duracao"
+						placeholder="Duração"
+					/>
+					<input type="button" value="Calcular" onclick="calcular()" />
+					<div id="resultados"></div>
+				</div>
+
+				<picture>
+                    <source media="(min-width:480px )" srcset="churras-2.png" type="image/png">
+                   <img src="churras.png" alt="chuurras">
+                </picture>
+			</div>
+		</main>
+
+		<hr />
+		<footer>
+			<div id="footer_container">
+				<p>
+					Desenvolvido por
+					<a href="https://github.com/JonathanGuimarae3s/" target="_blank"
+						>Jonathan Guimarães</a
+					>
+				</p>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
 </html>
