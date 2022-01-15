@@ -35,7 +35,7 @@ header > p {
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	flex-direction: row;
-	margin: 127px 0px;
+	margin: 50px 0px;
 }
 #img {
 	display: inline-block;
@@ -73,9 +73,7 @@ input[type="button"]:hover {
 	cursor: pointer;
 }
 
-img {
-	margin: 10px 0px;
-}
+
 
 footer {
 	background-color: var(--color3);
