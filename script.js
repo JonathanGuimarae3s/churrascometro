@@ -8,14 +8,15 @@ let btn = document.getElementById("button");
 let resultado = document.getElementById("resultados");
 
 function calcular() {
+	//pega os valores dos input
 	let adulto = inputAdulto.value;
 	let crianca = inputCrianca.value;
 	let duracao = inputDuracao.value;
-
+	//
 	let carne = carnePP(duracao);
 	let cerva = cervaPP(duracao);
 	let refri = refriPP(duracao);
-
+	//calcula
 	let qdtCarne = carne * adulto + (400 / 2) * crianca;
 	let qdtCerva = cerva * adulto;
 	let qdtRefri = refri * adulto + (400 / 2) * crianca;
@@ -44,6 +45,7 @@ function carnePP(duracao) {
 		return 400;
 	}
 }
+
 function cervaPP(duracao) {
 	if (duracao >= 6) {
 		return 2000;
