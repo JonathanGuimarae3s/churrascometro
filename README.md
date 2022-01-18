@@ -1,9 +1,11 @@
 
 # Churrascômetro
+
+### Projeto
 O site tem por objetivo calcular a quantidade de carnes, refrigerantes e cervejas para um churrasco.
+Site: <a href="https://jonathanguimarae3s.github.io/churrascometro/">Churrascômetro</a>
 
-
-## Tecnologias usadas:
+### Tecnologias usadas:
 
 - Javascript
 - HTML
