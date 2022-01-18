@@ -1,6 +1,6 @@
 
-# Churrascêmetro
-O site tem po/ objetivo calcular a quantidade de carnes, refrigerantes e cervejas para um churrasco.
+# Churrascômetro
+O site tem por objetivo calcular a quantidade de carnes, refrigerantes e cervejas para um churrasco.
 
 
 ## Tecnologias usadas:
@@ -11,4 +11,4 @@ O site tem po/ objetivo calcular a quantidade de carnes, refrigerantes e cerveja
 
 ## Aprendizados
 
-Com esse dessafio eu aprendi a organizar melhor o código JS, separando eles em variáveis para ter uma melhor leitura do código e serviu para praticar minha lógica de programação.
+Com esse dessafio eu aprendi a organizar melhor o código JS, separando eles em variáveis para ter uma melhor leitura do código e serviu para praticar minha lógica de programação.Além disso, usei pela primeira fez flex-box.
